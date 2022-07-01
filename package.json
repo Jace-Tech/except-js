@@ -1,0 +1,16 @@
+{
+  "name": "except-js",
+  "version": "1.0.0",
+  "description": "It returns a new object with the keys that were passed to the function removed",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "except",
+    "object-except",
+    "filter-object"
+  ],
+  "author": "Jace Tech",
+  "gitHub": "jace-tech/except",
+  "license": "MIT"
+}
