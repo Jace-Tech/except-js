@@ -1,6 +1,6 @@
 {
   "name": "@jace.dev/exceptjs",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "It returns a new object with the keys that were passed to the function removed",
   "main": "except.js",
   "scripts": {},
