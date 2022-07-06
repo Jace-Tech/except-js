@@ -1,5 +1,4 @@
 ;(function() {
-
     /**
      * It returns a new object with the keys that were passed to the function removed
      * @param args Can be an array of keys or strings[keys] to be removed from the object.
@@ -7,12 +6,7 @@
      * 
      * Examples: 
      * 
-     * ```html
-     * <!-- BASIC HTML  -->
-     * <script src="/js/except.js"></script>
-     * 
-     *  <script>
-     * 
+     * ```js
      *      
         const obj1 = { name: "foo",  age: 20, city: "bar" }
 
@@ -32,13 +26,11 @@
         const user = { name: "John Smith", age: 45, email: "john.smith@gmail.com", password: "password"}
         console.log(user.except('password'))
         // output: { name: "John Smith", age: 45, email: "john.smith@gmail.com" }
-     * 
-     *  </script>
      * ```
      */
     function except (args) {
         const values = this
-        const result = values
+        const result = {...values}
         const keys = Object.keys(values)
 
     
