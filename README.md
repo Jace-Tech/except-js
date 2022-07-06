@@ -11,7 +11,7 @@ npm i @jace.dev/exceptjs
 # YARN
 yarn add @jace.dev/exceptjs 
 
-# YARN
+# PNMP
 pnpm i @jace.dev/exceptjs
 
 ```
