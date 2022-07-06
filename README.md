@@ -3,6 +3,7 @@
 A simple script that adds a function to objects to help with key filtering.
 
 ## Installation
+
 ```bash
 # NPM
 npm i @jace.dev/exceptjs 
