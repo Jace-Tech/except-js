@@ -1,16 +1,15 @@
 {
-  "name": "except-js",
+  "name": "@jace.dev/exceptjs",
   "version": "1.0.0",
   "description": "It returns a new object with the keys that were passed to the function removed",
-  "main": "index.js",
-  "scripts": {
-  },
+  "main": "except.js",
+  "scripts": {},
   "keywords": [
     "except",
     "object-except",
     "filter-object"
   ],
   "author": "Jace Tech",
-  "gitHub": "jace-tech/except",
+  "gitHub": "https://github.com/Jace-Tech/except-js",
   "license": "MIT"
 }

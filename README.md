@@ -2,11 +2,24 @@
 
 A simple script that adds a function to objects to help with key filtering.
 
+## Installation
+```bash
+# NPM
+npm i @jace.dev/exceptjs 
+
+# YARN
+yarn add @jace.dev/exceptjs 
+
+# YARN
+pnpm i @jace.dev/exceptjs
+
+```
+
 ## Examples: 
      
 ```html
 <!-- BASIC HTML  -->
-<script src="/js/except.js"></script>
+<script src="/js/@jace.dev/exceptjs "></script>
 
 <script>     
     const obj1 = { name: "foo",  age: 20, city: "bar" }
@@ -34,7 +47,7 @@ A simple script that adds a function to objects to help with key filtering.
 ```js
 // NODE JS  
 
-    require("except.js")
+    require("@jace.dev/exceptjs")
 
     const obj1 = { name: "foo",  age: 20, city: "bar" }
 
