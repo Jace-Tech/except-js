@@ -20,7 +20,7 @@ pnpm i @jace.dev/exceptjs
      
 ```html
 <!-- BASIC HTML  -->
-<script src="/js/@jace.dev/exceptjs "></script>
+<script src="https://raw.githubusercontent.com/Jace-Tech/except-js/main/except.js"></script>
 
 <script>     
     const obj1 = { name: "foo",  age: 20, city: "bar" }
