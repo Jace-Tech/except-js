@@ -31,7 +31,7 @@
     function except (args) {
         const values = this
         const result = {...values}
-        const keys = Object.keys(values)
+        const keys = Object?.keys(values)
 
     
         if(arguments.length) {
@@ -68,5 +68,5 @@
 
     }
 
-    Object.prototype.except = except
+    Object?.prototype?.except = except
 })()
