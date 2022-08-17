@@ -68,5 +68,5 @@
 
     }
 
-    Object?.prototype?.except = except
+    Object.prototype.except = except
 })()
